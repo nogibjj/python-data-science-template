@@ -4,3 +4,6 @@ if __name__ == "__main__":
 
     z = a + b
     print("Done.")
+
+    # put lint error
+    a = a
