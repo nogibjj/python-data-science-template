@@ -6,4 +6,4 @@ if __name__ == "__main__":
     print("Done.")
 
     # put lint error
-    a = a
+    # a = a
