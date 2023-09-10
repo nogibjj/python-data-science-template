@@ -9,7 +9,7 @@ format:
 	black src/*.py src/lib/*.py tests/*.py
 
 lint:
-	pylint --disable=R,C src/*.py src/lib/*.py
+	pylint --disable=R,C --init-hook='import sys; sys.path.append("./src/")' *.py lib/*.py
 
 container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile
