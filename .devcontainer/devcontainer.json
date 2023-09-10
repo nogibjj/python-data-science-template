@@ -26,7 +26,8 @@
 				"ms-toolsai.jupyter",
 				"ms-azuretools.vscode-docker",
 				"ms-vscode.makefile-tools",
-				"GitHub.vscode-github-actions"
+				"GitHub.vscode-github-actions",
+				"ms-python.pylint"
 			]
 		}
 	}
