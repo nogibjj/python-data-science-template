@@ -9,3 +9,6 @@ if __name__ == "__main__":
 
     cuber = power(3)
     print(f"Cube of 4 is {cuber(4)}.")
+
+    inverter = power(-1)
+    print(f"The inverse of 2 is {inverter(2)}.")
